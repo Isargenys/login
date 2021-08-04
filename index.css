@@ -1,0 +1,36 @@
+
+header{
+    background: rgba(90, 90, 87, 0.644);
+    width: 100%;
+    height: 60px;
+}
+header h4{
+   color:#fff;
+   padding-top: 12px;
+
+}
+ .menu{
+    background: rgba(136, 108, 38, 0.5);
+    height: 600px;
+    padding-top: 50px;
+    padding-left: 19px;
+}
+.menu a{
+    color:rgb(83, 69, 5);
+   font-size: 20px;
+   margin-top: 8px;
+   
+}
+.menu a:hover {
+    transition: .5s;
+    background-color: rgba(0,0,0,.5);
+    text-decoration: none;
+}
+.clase0 {
+    background: greenyellow;
+    margin-top: 12px;
+}
+.clase1{
+    background: rgb(85, 47, 255);
+    margin-top: 12px;
+}

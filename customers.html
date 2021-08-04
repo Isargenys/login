@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="customers.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pagina principal</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h4>NOMBRE DE LA EMPRESA</h4>
+        </div>
+    </header>
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-3 menu">
+                    <nav class="nav flex-column">
+                            <a class="nav-link active" href="index.html">Panel <i class="fa fa-tachometer" aria-hidden="true"></i></a>
+                            <a class="nav-link" href="customers.html">Clientes <i class="fa fa-users"></i></a>
+                            <a class="nav-link" href="#">Transaciones <i class="fa fa-arrow-up"></i><i class="fa fa-arrow-down"></i></a>
+                            <a class="nav-link" href="#">Empleados <i class="fa fa-user"></i></a>
+                            <a class="nav-link" href="#">Salir del sistema <i class="fa fa-sign-out"></i></a>
+                          </nav>
+            </div>
+            <div class="col-sm-9">
+                  <div class="row">
+                    <div class="col-sm-6">
+                    <section class="clase3" >
+                       <h2>Clientes</h2> 
+                    </section> 
+                    </div> 
+                    <div class="col-sm-6">
+                      <!-- Split button -->
+                      
+                      <section id="button-drop">
+                        <div class="btn-group">
+                            <button type="button" data-toggle="modal" data-target="#newCustomer" class="btn btn-success">Nuevo Cliente</button>
+                            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>  
+                        </section>
+                    </div> 
+                </div>
+                <div class="row">
+                    <table class="table table-hover table-striped table-responsive table-condensed">
+                        <thead>
+                            <th>No.</th>
+                            <th>Nombre/Empresa</th>
+                            <th>Saldo pendiente</th>
+                            <th>Acción</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Jose Delgado</td>
+                                <td>5,000</td>
+                                <td>
+                                        <div class="dropdown">
+                                                <a href="#" data-toggle="dropdown">
+                                                  Crear
+                                                </a>
+                                                <div class="dropdown-menu">
+                                                  <a class="dropdown-item" href="#">Nueva factura</a>
+                                                  <a class="dropdown-item" href="#">Recibo de pago</a>
+                                                  <a class="dropdown-item" href="#">Abonar cuenta</a>
+                                                  <a class="dropdown-item" href="#">Cotización</a>
+                                                </div>
+                                              </div>
+                                            
+                                </td>
+                                <td>
+                                    <a href="" class="btn btn-warning"><i class="fa fa-pencil"></i></a>
+                                    <a href="" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Emilio Cespedes</td>
+                                <td>5,000</td>
+                                <td>
+                                        <div class="dropdown">
+                                                <a href="#" data-toggle="dropdown">
+                                                  Crear
+                                                </a>
+                                                <div class="dropdown-menu">
+                                                  <a class="dropdown-item" href="#">Nueva factura</a>
+                                                  <a class="dropdown-item" href="#">Recibo de pago</a>
+                                                  <a class="dropdown-item" href="#">Abonar cuenta</a>
+                                                  <a class="dropdown-item" href="#">Cotización</a>
+                                                </div>
+                                              </div>
+                                            
+                                </td>
+                                <td>
+                                    <a href="" class="btn btn-warning"><i class="fa fa-pencil"></i></a>
+                                    <a href="" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Yoselin Sanchez</td>
+                                <td>5,000</td>
+                                <td>
+                                        <div class="dropdown">
+                                                <a href="#" data-toggle="dropdown">
+                                                  Crear
+                                                </a>
+                                                <div class="dropdown-menu">
+                                                  <a class="dropdown-item" href="#">Nueva factura</a>
+                                                  <a class="dropdown-item" href="#">Recibo de pago</a>
+                                                  <a class="dropdown-item" href="#">Abonar cuenta</a>
+                                                  <a class="dropdown-item" href="#">Cotización</a>
+                                                </div>
+                                              </div>
+                                            
+                                </td>
+
+                                <td>
+                                    <a href="" class="btn btn-warning"><i class="fa fa-pencil"></i></a>
+                                    <a href="" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Maritza Apolinar</td>
+                                <td>5,000</td>
+                                <td>
+                                        <div class="dropdown">
+                                                <a href="#" data-toggle="dropdown">
+                                                  Crear
+                                                </a>
+                                                <div class="dropdown-menu">
+                                                  <a class="dropdown-item" href="#">Nueva factura</a>
+                                                  <a class="dropdown-item" href="#">Recibo de pago</a>
+                                                  <a class="dropdown-item" href="#">Abonar cuenta</a>
+                                                  <a class="dropdown-item" href="#">Cotización</a>
+                                                </div>
+                                              </div>
+                                            
+                                </td>
+                                <td>
+                                    <a href="" class="btn btn-warning"><i class="fa fa-pencil"></i></a>
+                                    <a href="" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Edward Lopez</td>
+                                <td>5,000</td>
+                                <td>
+                                        <div class="dropdown">
+                                                <a href="#" data-toggle="dropdown">
+                                                  Crear
+                                                </a>
+                                                <div class="dropdown-menu">
+                                                  <a class="dropdown-item" href="#">Nueva factura</a>
+                                                  <a class="dropdown-item" href="#">Recibo de pago</a>
+                                                  <a class="dropdown-item" href="#">Abonar cuenta</a>
+                                                  <a class="dropdown-item" href="#">Cotización</a>
+                                                </div>
+                                              </div>
+                                            
+                                </td>
+                                <td>
+                                    <a href="" class="btn btn-warning"><i class="fa fa-pencil"></i></a>
+                                    <a href="" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Ceneida Rodriguez</td>
+                                <td>5,000</td>
+                                <td>
+                                        <div class="dropdown">
+                                                <a href="#" data-toggle="dropdown">
+                                                  Crear
+                                                </a>
+                                                <div class="dropdown-menu">
+                                                  <a class="dropdown-item" href="#">Nueva factura</a>
+                                                  <a class="dropdown-item" href="#">Recibo de pago</a>
+                                                  <a class="dropdown-item" href="#">Abonar cuenta</a>
+                                                  <a class="dropdown-item" href="#">Cotización</a>
+                                                </div>
+                                              </div>
+                                            
+                                </td>
+                                <td>
+                                    <a href="" class="btn btn-warning"><i class="fa fa-pencil"></i></a>
+                                    <a href="" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+              </div>
+            </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="newCustomer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Nuevo cliente <i class="fa fa-user-plus"></i></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="form-group">
+                        <label class="sr-only">Nombre:</label>
+                        <input type="text" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only">Cedula:</label>
+                        <input type="text" class="form-control" placeholder="Cedula">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only">Telefono</label>
+                        <input type="text" class="form-control" placeholder="Telefono">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only">Email:</label>
+                        <input type="text" class="form-control" placeholder="Email">
+                    </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-success">Guardar <i class="fa fa-floppy-o"></i></button>
+            </form>
+            </div>
+            </div>
+        </div>
+    </div>
+      
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+      
+</body>
+</html>
